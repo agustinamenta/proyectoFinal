@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*comienza header index*/
+.headerIndex{
+	background-image: url(../images/portada.png);
+	height: 30rem;
+	background-position: center;
+	background-size: cover;
+}
+.headerSucursales{
+	background-image: url(../images/portadasucursales1.png);
+	height: 26rem;
+	background-position: center;
+	background-size: cover;
+}
+.headerCarta {
+	background-image: url(../images/portadacarta1.png);
+	height: 26rem;
+	background-position: center;
+	background-size: cover;
+}
+.headerNosotros {
+	background-image: url(../images/portadanosotros.png);
+	height: 26rem;
+	background-position: bottom;
+	background-size: cover;
+}
+.headerContacto {
+	background-image: url(../images/portadacontacto2.png);
+	height: 26rem;
+	background-position: center;
+	background-size: cover;
+}
+#header .nav{
+	list-style: none;
+}
+#header .nav li{
+	display: inline-block;
+	margin: 1rem;
+}
+#header .nav a{
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+.tituloIndex{
+	color: #FFF;
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.3rem;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+ }
+ .titulosHeader{
+ 	color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.9rem;
+    top: 11rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+ }
+
+ /*termina header sitios entrega grids*/
+/*empieza main*/
+ .mainContainer p{
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #000;
+	text-align: center;
+	top: 40%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.filaImagenesIndex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.estiloImagenes{
+	height: 70%;
+	width: 400px;
+	border-radius: 2%;
+	position: static;
+	background-position: center;
+	margin: 5rem;
+}
+.textoNosotros{
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300;
+	font-size: 1rem;
+	color: #000;
+	text-align: center;
+}
+.titulos{
+	font-weight: bold;
+	font-size: 1.2rem;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+}
+.textos{
+	font-family: 'Oswald', sans-serif; 
+	font-weight: 300;
+	font-size: 1rem;
+	color: #000;
+}
+.titulosSucursales{
+	font-weight: bold;
+	font-size: 1.7rem;
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	text-align: center;
+	margin: 4rem 1.5rem 4rem 1.5rem;
+}
+.sucursales{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+/*termina main sitios index y sucursales*/
+/*comienza footer sitios*/
+#footer {
+	background-color: #000;
+	background-position: bottom;
+	margin-top: 3rem;
+}
+#footer .redes{
+	list-style: none;
+	text-align: left;
+}
+#footer .redes li{
+	display: inline-block;
+	margin: 0.8rem;
+}
+#footer .redes a{
+ 	text-decoration: none;
+ 	font-family:'Oswald', sans-serif;
+	color: #FFF;
+}
+
+/*termina footer sitios*/
+
+@media all and (max-width: 600px){
+	#header .nav li{ 
+		display: flex;
+		flex-direction: column;
+	}
+	.tituloIndex{
+		font-size: 3rem;
+		top: 60%;
+	}
+	.tituloSucursales{
+		font-size: 2rem;
+		top: 60%;
+	}
+	.textos{
+		font-size: 0.8rem;
+	}
+	.iframe{
+		width: 300px;
+		height: 200px;
+	}
+
+}
